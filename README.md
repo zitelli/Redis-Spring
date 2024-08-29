@@ -25,9 +25,8 @@ Get: http://localhost:8080/redis/find?key=user:1
 Put: http://localhost:8080/redis/update?key=user:1
 
 Delete: http://localhost:8080/redis/delete?key=user:1
-
-
-
+\
+\
 . Direct acess to Redis:
 
 docker exec -it redis redis-cli
