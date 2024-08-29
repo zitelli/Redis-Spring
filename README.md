@@ -3,9 +3,9 @@ This project deals with using Redis using Docker Compose via spring framework.
 
 There are two directories in the project root: redis_data and redis.conf.
 
-### How do I testing it:
+## How do I testing it:
 
-. Via Postnan:
+###. Via Postnan:
 
 Get: http://localhost:8080/redis/hello
 
@@ -25,9 +25,8 @@ Get: http://localhost:8080/redis/find?key=user:1
 Put: http://localhost:8080/redis/update?key=user:1
 
 Delete: http://localhost:8080/redis/delete?key=user:1
-\
-\
-. Direct acess to Redis:
+
+###. Direct acess to Redis:
 
 docker exec -it redis redis-cli
 
